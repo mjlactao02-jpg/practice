@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="signup-body">
+    <nav>
+        <h1 class="logo-name">INTIME</h1>
+    </nav>
+    <div class="parent">
+        <div class="side-bar">
+            <a href="index2.html">Home</a>
+            <a href="attendance.html">Attendance</a>
+            <a herf="">Announcements</a>
+            <a href="">Records</a>
+            <a href="">Settings</a>
+            <a href="login-admin.html">Admin</a>
+            <a href="index.html">Log-Out</a>
+        </div>
+        <div class="div2">
+            <div class="attendance">
+                <h1>Students Attendance</h1>
+                <h4 id="ShowArea"></h4>
+                <input type="email" id="studentemail" placeholder="Enter your email">
+                <input type="text" id="studentid" placeholder="Enter your School-ID number">
+                <input type="text" id="studentfirst" placeholder="Enter your first name">
+                <input type="text" id="studentmiddle" placeholder="Enter your middle name">
+                <input type="text" id="studentlast" placeholder="Enter your last name">
+                <select id="studentstatus" required>
+                <option value="">--Select Status--</option>
+                    <option value="Present">Present</option>
+                    <option value="Absent">Absent</option>
+                    <option value="Late">Late</option>
+                </select>
+                <input type="text" placeholder="Note">
+                <button class="attend" onclick="markAttendance ()">Mark Attendance</button>
+            </div>
+        </div>
+    </div>
+        
+</body>
+<script src="script.js"></script>
+</html>

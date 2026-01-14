@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="signup-body">
+    <nav>
+        <h1 class="logo-name">INTIME</h1>
+        <h1 class="admin-logo">ADMIN</h1>
+    </nav>
+    <div class="parent">
+        <div class="side-bar">
+            <a href="index2.html">Home</a>
+            <a href="">Dashboard</a>
+            <a herf="">Announcements</a>
+            <a href="">Students</a>
+            <a href="">Settings</a>
+            <a href="attendance.html">Student</a>
+            <a href="index.html">Log-Out</a>
+        </div>
+        <div class="data">
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Email</th>
+                    <th>Student ID</th>
+                    <th>First Name</th>
+                    <th>Middle Name</th>
+                    <th>Last Name</th>
+                    <th>Status</th>
+                    <th>Time</th>
+                </tr>
+            </thead>
+            <tbody id="attendanceTable"></tbody>
+        </table>
+         <button class="clear" onclick="clearAttendance()" style="background:#e53e3e;">Clear Attendance</button>
+        </div>
+    </div>
+        <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,323 @@
+body{
+    margin: 0;
+}
+nav{
+    background: linear-gradient(90deg, #2563eb, #1e40af);
+    align-items: center;
+    display: flex;
+    color: white;
+    height: 90px;
+    width: 100%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+.logo-name{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 50px;
+    font-style: italic;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+}
+.login-container{
+    width: auto;
+    right: 0%;
+    position:absolute;
+    display: inline;
+}
+.login-container a{
+    transition: 0.5s;
+    border-radius: 10px;
+    margin-right: 10px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 15px;
+    background: #2563eb;
+    
+}
+.login-container a:hover{
+    background: #1e40af;
+}
+.main-container{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #3253c0;
+}
+.main-container p{
+    color: black;
+    margin: 10px;
+}
+.second-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second{
+    text-align: center;
+    background-color: #ffffff;
+    width: auto;
+    height: auto;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.second h3{
+    color: #3253c0;
+}
+.third-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.third{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    border-radius: 10px;
+    margin: 20px;
+    width: auto;
+    margin-top: 15px;
+    padding: 10px;
+    box-shadow: 0 5px 10px rgb(0,0,0,0.2);
+}
+.third h3{
+    color: #3253c0;
+}
+.work{ 
+    text-align: center;
+    align-items: center;
+    color: #3253c0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fourth-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fourth{
+    width: auto;
+    height: auto;
+    padding: 10px 20px;
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow:0 5px 10px rgba(0, 0, 0, 0.2)
+}
+.fifth-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fifth{
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow:0 5px 10px rgba(0, 0, 0, 0.2);
+}
+footer{
+    margin-top: 15px;
+    background-color: #0f172a;
+    font-size: 14px;
+    width: auto;
+    height: auto;
+    padding: 25px;
+    text-align: center;
+    color: #e9e9e9;
+}
+/*Signup css*/
+.signup-body{
+    margin: 0%;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+.signup-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+}
+.signup{
+    width: auto;
+    height: auto;
+    padding: 40px;
+    background-color: white;
+    border-radius: 15px;
+}
+.signup h1{
+    text-align: center;
+    margin: 0%;
+}
+.signup h4{
+    text-align: center;
+    color: red;
+    margin: 0px;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.signup input{
+    height: 40px;
+    width: 50vh;
+    margin: 10px;
+    display: block;
+    font-size: 15px;
+    outline: none;
+}
+.signup button{
+    height: 40px;
+    width: 51vh;
+    margin: 10px;
+    color: white;
+    font-size: 15px;
+    outline: none;
+    background-color: rgb(66, 66, 248);
+    border: 0px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(66, 66, 200) ;
+}
+.main-body{
+    background: linear-gradient(135deg, #74ebd5, #acb6e5);
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 0px;
+}
+    
+.div1 {
+    grid-row: span 5 / span 5;
+    background-color: rgb(255, 255, 255);
+}
+
+.div2 {
+    grid-column: span 4 / span 4;
+    grid-row: span 5 / span 5;
+    background: linear-gradient(135deg, #74ebd5, #acb6e5);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.attendance{
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+.attendance h1{
+    text-align: center;
+}
+.attendance input{
+    font-size:15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 15px;
+    width: 70vh;
+    height: 6vh;
+    display: block;
+    outline: none;
+}
+.attendance select{
+    font-size:15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 15px;
+    width: 71vh;
+    height: 6vh;
+    display: block;
+    outline: none;
+}
+.attendance .attend{
+    font-size:17px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 15px;
+    width: 71vh;
+    height: 6vh;
+    display: block;
+    outline: none;
+    background-color: #3253c0;
+    color:white;
+}
+.attendance .attend:hover{
+    cursor: pointer;
+    background-color:  #526fce;
+}
+.side-bar{
+    display: inline-block;
+    height: 0vh;
+}
+.side-bar a{
+    background-color: #0f172a;
+    position: relative;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    padding: 30px;
+    text-decoration: none;
+
+}
+.side-bar a:hover{
+    background-color: rgb(15, 23, 30);
+
+}
+.admin-logo{
+    position: absolute;
+    right: 20px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 50px;
+    font-style: italic;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+}
+.div2-login{
+    grid-column: span 4 / span 4;
+    grid-row: span 5 / span 5;
+    background: linear-gradient(135deg, #74ebd5, #acb6e5);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:581px;
+}
+.attendance h4{
+    text-align: center;
+    color: red;
+    margin: 0px;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.data{
+    width:174vh;
+    margin: 0;
+
+}
+table{
+    width:174vh;
+    margin:auto;
+    border-collapse: collapse;
+    background:#fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    overflow-y: scroll;
+}
+th, td{
+    padding:12px;
+    text-align:center;
+    border-bottom:1px solid #ddd;
+}
+th{
+    background:#302c6d;
+    color:white;
+}
+tr:hover{
+    background:#f1f1f1;
+}
